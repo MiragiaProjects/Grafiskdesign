@@ -71,6 +71,19 @@ a {
     height: auto;
 }
 
+/*-----lånet------*/
+.lanText {
+    text-align: center;
+    background-color:#9BE5BE;
+
+}
+.lanRubrik {
+    text-align: center;
+    padding-top: 20px;
+}
+.lanTextRan {
+    padding-bottom: 20px;
+}
 
 /*------Om almi------- */
 .wrapper-om {
