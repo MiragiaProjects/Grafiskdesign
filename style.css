@@ -1,0 +1,248 @@
+/*------global------- */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.imgEL  {
+    width: 20px;
+    height: auto;
+}
+.container  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/*-----NavBar----- */
+.logoImg {
+    width: 200px;
+    height: auto;
+}
+.logoImgEl  {
+    width:90px;
+    height: auto;
+}
+.navbar {
+    background-color: #FF5F0A;
+    height:100px;
+}
+
+
+
+/*------Hero------- */
+.hero {
+    background-image: url(assets/minismall-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1200px ;
+    width: 882px ;
+}
+.heroTitle {
+    margin-bottom: 30px;
+}
+.heroText {
+    text-align: center;
+}
+.heroTextBox {
+    width: 50%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7231093120842087) 0%);
+    color:white;
+    padding: 35px;
+    
+}
+.applayButton   {
+    background-color: #00BE5F;
+}
+.heroImg    {
+    width:100px;
+    height: auto;
+}
+
+
+/*------Om almi------- */
+.wrapper-om {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.almiText {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*----------Vi jobbar med--------- */
+.wrapper-sammarbete {
+background-color: #FF5F0A;
+text-align: center;
+padding: 30px;
+}
+
+.sammarbetetImg {
+    width: 40px;
+    height: auto;
+}
+
+/*----------Varför almi--------- */
+
+.usp{
+    background-color: #00BE5F;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+.uspImg {
+    width: 40px;
+    height:auto;
+}
+
+
+/*-------Låntagare-------- */
+.lantagCitat{
+    padding-top:20px;
+}
+.lantagImg {
+    width: 250px;
+    height: auto;
+}
+.lantagColOne {
+    
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,95,10,1) 100%);
+}
+
+.lantagColTwo {
+    background: rgb(0,190,95);
+    background: linear-gradient(90deg, rgba(0,190,95,1) 0%, rgba(255,255,255,1) 100%); 
+}
+
+.lantagImgOne {
+    background: rgb(255,95,10);
+    background: linear-gradient(90deg, rgba(255,95,10,1) 0%, rgba(255,255,255,1) 100%);
+}
+.lantagImgTwo {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,190,95,1) 100%); 
+}
+
+
+/*---------Action!-------- */
+.wrapper-action {
+background-color: #9BE5BE;
+margin-bottom: 40px;
+padding-bottom: 40px;
+}
+
+.actionText {
+    padding: 20px;
+}
+
+.imgAction  {
+    width: 150px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.btn {
+    font-size:20px;
+    padding: 20px;
+}
+.buttonHolder   {
+    align-content: center;
+}
+
+/*----------Footer------------ */
+.footer {
+    background-color:#121212;
+    color: white;
+}
+
+.footerText {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 40px;
+}
+
+
+/* -------------Mediaqueries-------------- */
+
+@media screen and (min-width: 574px) {
+    .hero {
+        background-image: url(assets/smallpicunsplash.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 1200px ;
+        width: 882px ;
+    }
+
+
+
+}
+
+@media screen and (min-width: 882px) {
+    .hero {
+        background-image: url(assets/towfiqu-barbhuiya-joqWSI9u_XM-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 1200px ;
+        width: 1900px ;
+    }
+    .d-felx {
+        justify-content:center;
+    }
+
+    .lantagImg {
+        width: 250px;
+        height: auto;
+    }
+    .imgTwo {
+        float: right;
+    }
+    
+    .lantagCitat {
+        width: 50%;
+        margin-top: 40px;
+    }
+    
+    .lantagOne {
+        float: right;
+        
+    }
+    
+    .lantagColOne {
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,95,10,1) 100%);
+    }
+    
+    .lantagColTwo {
+        background: rgb(0,190,95);
+        background: linear-gradient(90deg, rgba(0,190,95,1) 0%, rgba(255,255,255,1) 100%); 
+    }
+    
+    .lantagImgOne {
+        background: rgb(255,95,10);
+        background: linear-gradient(90deg, rgba(255,95,10,1) 0%, rgba(255,255,255,1) 100%);
+    }
+    .lantagImgTwo {
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,190,95,1) 100%); 
+    }
+    
+}
